@@ -93,3 +93,24 @@
     height: auto;
     width: 50%;
 }
+
+#contactButton{
+background: transparent;
+box-sizing: border-box;
+border: solid 2px rgb(185, 129, 182);
+border-radius: 0.6rem;
+align-self: center;
+font-size: 17px;
+font-weight: 400;
+margin: 20px;
+padding: 20px 40px;
+text-align: center;
+color: black;
+font-family: pangolin;
+font-weight: bold;
+cursor: pointer;
+}
+#contactButton:hover {
+    box-shadow: 0 6px 7px -1px #252222;
+    transform: translateY(-15%);
+}

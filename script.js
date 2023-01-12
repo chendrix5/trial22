@@ -17,3 +17,9 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+// Timeout if off my page for too long
+var title = document.querySelector("title");
+
+setTimeout(function(){
+  title.textContent = "Please come back- Clay";
+}, 5000);

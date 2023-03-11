@@ -31,3 +31,5 @@ document.addEventListener("visibilitychange", function() {
       document.querySelector("title").textContent = originalTitle;
     }
 });
+
+
